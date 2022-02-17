@@ -8,7 +8,7 @@ namespace _7
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите строку состоящую из слов разделённых пробелом" );
+            Console.WriteLine("Введите строку состоящую из слов разделённых пробел  sads ом" );
             string text = (Console.ReadLine());
             List<string> slova = text.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToList<string>();
             int i = 0;
